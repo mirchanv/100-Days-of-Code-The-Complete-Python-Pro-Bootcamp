@@ -1,0 +1,2 @@
+#  Rock, Paper, Scissors Game
+A command-line implementation of the classic Rock, Paper, Scissors game built in Python. The player competes against the computer, which makes random choices, with outcomes determined using conditional logic. The game features ASCII art for visual feedback and demonstrates core concepts such as randomization, user input handling, and control flow.
