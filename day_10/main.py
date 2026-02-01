@@ -12,11 +12,6 @@ def multiply(n1, n2):
 def divide(n1, n2):
     return n1 / n2
 
-add_nums = add
-subtract_nums = subtract
-multiply_nums = multiply
-divide_nums = divide
-
 math_operations = {
     "+": add,
     "-": subtract,
@@ -32,6 +27,7 @@ def calculator():
     while should_continue:
         for symbol in math_operations:
             print(symbol)
+            
         picked_operation = input("Pick an operation: ")
         num2 = float(input("What's the next number?: "))
         result = math_operations[picked_operation](num1, num2)
