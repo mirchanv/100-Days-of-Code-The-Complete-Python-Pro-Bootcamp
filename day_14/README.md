@@ -1,4 +1,4 @@
-# 💻 Higher Lower Followers Game (Python)
+# 💻 Higher Lower Followers Game
 
 ## 📖 Project Overview
 This project is an interactive **command-line Higher Lower Game** built in Python. Instead of guessing numbers, the player compares **social media follower counts** between two public figures, brands, or entities and must correctly choose which one has more followers. The game continues as long as the player keeps guessing correctly, reinforcing decision-making and control flow concepts.
