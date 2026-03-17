@@ -1,5 +1,4 @@
 # Classic Snake Game in Python
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/mirchanv/100-Days-of-Code-The-Complete-Python-Pro-Bootcamp/tree/main/day_20-21_Snake_Game)
 
 ## Overview
 
