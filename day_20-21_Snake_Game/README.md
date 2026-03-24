@@ -5,12 +5,6 @@ Control the snake, eat food to grow longer, and avoid colliding with walls or yo
 
 ---
 
-## 🎮 Demo
-
-(Add your demo GIF here)
-
----
-
 ## 🚀 Features
 
 - 🐍 Smooth snake movement using keyboard controls
