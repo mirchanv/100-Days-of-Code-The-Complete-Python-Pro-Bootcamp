@@ -14,9 +14,7 @@ turtle.shape(img)
 data = pandas.read_csv("50_states.csv")
 all_states = data["state"].to_list()
 guessed_states = []
-missed_states = {
-    "state": []
-}
+missed_states = []
 
 def add_state_to_map(state, x, y):
     pin = Turtle()
@@ -26,9 +24,8 @@ def add_state_to_map(state, x, y):
     pin.write(f'{state}', align=ALIGNMENT, font=FONT_STYLE)
 
 def check_missed_states():
-    for current_state in all_states:
-        if current_state not in guessed_states:
-            missed_states["state"].append(current_state)
+    global missed_states
+    missed_states = [state for state in all_states if state not in guessed_states]
 
 def write_to_file():
     data_frame = pandas.DataFrame(missed_states)
